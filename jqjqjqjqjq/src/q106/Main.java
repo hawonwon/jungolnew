@@ -9,6 +9,8 @@ public class Main {
 		int z = 30;
 		
 		System.out.println(x +" + "+ y + " = " + z);
+		
+		
 	}
 
 }
