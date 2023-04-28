@@ -14,9 +14,7 @@ public class Main {
 		sc.close();
 		int x = iw + 100 - ih;
 		System.out.println(x);
-		if (ih<= 0 ) {
-			return;
-		}
+		
 		if (x >0) {
 			System.out.println("Obesity");
 		}
