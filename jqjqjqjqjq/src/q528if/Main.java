@@ -8,6 +8,7 @@ public class Main {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		int in = sc.nextInt();
+		
 		System.out.println(in);
 		if (in < 0) {
 			System.out.println("minus");
