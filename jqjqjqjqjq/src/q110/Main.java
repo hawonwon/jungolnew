@@ -11,7 +11,7 @@ public class Main {
 		System.out.println("yard?");
 		
 		in = sc.nextDouble();
-		yard = 91.44*sc.nextDouble();
+		yard = 91.44*in;
 //		System.out.println(in + "yard"+" = " + yard + "  ");
 		System.out.printf("%.1fyard = %.1fcm", in, yard);
 		
