@@ -10,7 +10,7 @@ public class Main {
 		System.out.print("height = ");
 		int i = scanner.nextInt();
 		System.out.println("Your height is " + i +"cm.");
-		
+		scanner.close();
 	}
 
 }
