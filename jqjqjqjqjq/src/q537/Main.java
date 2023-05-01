@@ -16,7 +16,7 @@ public class Main {
 //		
 //		while(x < input & input <101){
 //			x++;
-//			y = y+x;
+//			y = y+x; //이것과 같다 y += x++;
 //			
 //		};
 //		System.out.println(y);
