@@ -9,9 +9,12 @@ public class Main {
 		Scanner scanner = new Scanner(System.in);
 		int i = scanner.nextInt();
 		int i2 = scanner.nextInt();
-	    i++;
-	    --i2;
-		System.out.printf("%d %d %d",i,--i2,i*i2);
+	    int x = (i++)*(--i2);
+	    System.out.printf("%d %d %d",i,i2,x);
+	    
+	   
+	   
+		
 	}
 
 }
