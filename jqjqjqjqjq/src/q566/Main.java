@@ -22,7 +22,6 @@ public class Main {
 		}
 		for(int i=0;i<=cnt;i++) {
 			
-			
 			System.out.print(ar[i]+" ");
 		}
 	}
