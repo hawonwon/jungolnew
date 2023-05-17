@@ -8,26 +8,19 @@ public class Main {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		int i[] = new int[100];
-		int count = 0;
-		for (int n = 0;n<100;n++) {
+		int a = 0;
+		for (int n = 0; n < 100; n++) {
 			i[n] = sc.nextInt();
-			count++;
-			if(i[n]==0) {
-				count--;
+			a++;
+			if (i[n] == 0) {
+				a--;
 				break;
-			}	
+			}
 		}
-		while(count>0) {
-			--count;
-			System.out.print(i[count]+" ");
-			
+		while (a > 0) {
+			--a;
+			System.out.print(i[a] + " ");
 		}
-		
-//		System.out.println(i[0]);
-//		System.out.println(i[1]);
-//		System.out.println(i[2]);
-//			
-		}
+
 	}
-
-
+}
