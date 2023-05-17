@@ -25,9 +25,14 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
+		
+		
+		
 		School s1 = new School();
+		
 		String name = sc.next();
 		int grade = sc.nextInt();
+		sc.close();
 		
 		School s2 = new School(name, grade);
 		
