@@ -9,13 +9,18 @@ public class Main {
         int i2 = sc.nextInt();
         int result, result2, result3, result4;
         result = (i > i2) ? 1  : 0;
+        boolean result5 = (i > i2) ? true  : false;
+        
+        
         result2 = (i < i2) ? 1  : 0;
         result3 = (i >= i2) ? 1  : 0;
         result4 = (i <= i2) ? 1  : 0;
         System.out.println(i+" > "+i2+" --- "+result);
+        System.out.println(i+" > "+i2+" --- "+result5);
         System.out.println(i+" < "+i2+" --- "+result2);
         System.out.println(i+" >= "+i2+" --- "+result3);
         System.out.println(i+" <= "+i2+" --- "+result4);
+        
 
     }
 }
