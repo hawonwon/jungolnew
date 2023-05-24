@@ -23,6 +23,7 @@ public class Main {
 			}
 			
 		}while(n>0);
+		ar[0][1] = ar[0][1] -1;
 //		System.out.println(Arrays.deepToString(ar));
 	
 		
