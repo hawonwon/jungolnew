@@ -1,6 +1,6 @@
 package q563;
 
-import java.util.Arrays;
+//import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -9,7 +9,7 @@ public class Main {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		int[] ar = new int[10];
-		int[] ar2 = new int[10];
+//		int[] ar2 = new int[10];
 		int tmp =0;
 		
 		for(int i =0; i<10;i++) {

@@ -8,7 +8,7 @@ public class Main {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		int count = 0;
-		int count35 = 0;
+//		int count35 = 0;
 		
 
 		while (true) {
@@ -17,15 +17,17 @@ public class Main {
 
 				break;
 			}
-			++count;
-			if (i%5 ==0|i % 3 == 0 | i==3) {
-				count35++;
+//			++count;
+//			if (i%5 ==0|i % 3 == 0 | i==3) {
+//				count35++;
+//			}
+			if (i%5 !=0&i % 3 != 0 & i!=3) {
+				count++;
 			}
-			
 			
 
 		}
-		System.out.println(count - count35);
+		System.out.println(count);
 	}
 
 }

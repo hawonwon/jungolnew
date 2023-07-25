@@ -17,7 +17,7 @@ public class Main {
 		}
 		char c = sc.next().charAt(0);
 		
-		System.out.println();
+//		System.out.println();
 		for(int i=0;i<str.length;i++) {
 			if(c==str[i].charAt(str[i].length()-1) ) {
 				System.out.println(str[i]);

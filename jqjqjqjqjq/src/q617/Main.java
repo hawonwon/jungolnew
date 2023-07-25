@@ -6,6 +6,8 @@ class Short {
     String name;
     int height;
 
+    
+    
     void person(String name, int height) {
         this.name = name;
         this.height = height;
@@ -38,6 +40,7 @@ public class Main {
                 String n = sc.next();
                 int h = sc.nextInt();
                  s1[i].person(n, h);
+                 
             if(s1[i].height<ss.height){
                 ss.person(s1[i].name,s1[i].height);
                 
